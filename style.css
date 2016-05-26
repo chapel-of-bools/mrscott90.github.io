@@ -73,6 +73,7 @@ div.linebreak{
 
 body{
   background-color: #2B323D;
+  border-radius: 5em;
   margin: 70px;
   margin-top: 50px;
 }
@@ -83,7 +84,7 @@ img{
 
 main{
   background-color: black;
-  border-left: 10px solid #2B323D;
-  border-right: 10px solid #2B323D;
+  border-left: 15px solid #2B323D;
+  border-right: 15px solid #2B323D;
   overflow: auto;
 }
