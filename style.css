@@ -60,6 +60,14 @@ nav ul {
 
 #icon{
   font-size: 60px;
+  padding-right: 75px;
+  padding-left: 75px;
+  transition: text-shadow ease-out 1s;
+}
+
+#icon:hover{
+  transition: text-shadow 1s;
+  text-shadow: 0 0 25px #E65B00;
 }
 
 li {
