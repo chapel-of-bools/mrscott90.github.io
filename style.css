@@ -84,6 +84,7 @@ img{
 
 main{
   background-color: black;
+  border-radius: 5em;
   border-left: 15px solid #2B323D;
   border-right: 15px solid #2B323D;
   overflow: auto;
