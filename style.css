@@ -58,6 +58,10 @@ ul a{
   padding-right: 5px;
 }
 
+ul li:nth-child(3n) a{
+  border: none;
+}
+
 div.linebreak{
   margin-top: 15px;
   border-top: 3px solid black;
@@ -79,4 +83,5 @@ main{
   background-color: black;
   border-left: 10px solid #2B323D;
   border-right: 10px solid #2B323D;
+  overflow: auto;
 }
