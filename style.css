@@ -44,11 +44,21 @@ nav{
   padding-bottom: 20px;
 }
 
-main ul {
-    font-size: 20px;
-    padding-top: 20px;
-    list-style-type: none;
-    text-align: center;
+main ul{
+  font-size: 20px;
+  padding-top: 20px;
+  list-style-type: none;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+main ul li:hover{
+  transition: color 1s;
+  color: #E65B00;
+}
+
+main ul li{
+  transition: color ease-out 1s;
 }
 
 nav ul {
@@ -62,6 +72,7 @@ nav ul {
   font-size: 60px;
   padding-right: 75px;
   padding-left: 75px;
+  text-shadow: 0 0 25px black;
   transition: text-shadow ease-out 1s;
 }
 
