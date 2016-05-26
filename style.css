@@ -44,11 +44,22 @@ nav{
   padding-bottom: 20px;
 }
 
-ul {
+main ul {
     font-size: 20px;
     padding-top: 20px;
     list-style-type: none;
     text-align: center;
+}
+
+nav ul {
+    font-size: 20px;
+    padding-top: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#icon{
+  font-size: 60px;
 }
 
 li {
