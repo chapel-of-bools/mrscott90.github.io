@@ -38,6 +38,22 @@ nav{
   border: 10px solid #2B323D;
 }
 
+ul {
+    font-size: 20px;
+    padding-top: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+ul a{
+  border-right: 2px solid #2B323D;
+  padding-right: 5px;
+}
+
 div.linebreak{
   margin-top: 15px;
   border-top: 3px solid black;
@@ -51,8 +67,12 @@ body{
   margin-top: 50px;
 }
 
-/*main{
-  background-color: black;
-  border-top: 200px solid #2B323D;
+img{
+  float: right;
+}
 
-}*/
+main{
+  background-color: black;
+  border-left: 10px solid #2B323D;
+  border-right: 10px solid #2B323D;
+}
