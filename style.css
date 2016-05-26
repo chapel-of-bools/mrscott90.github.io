@@ -22,14 +22,33 @@ html{
 }
 
 h1{
+  padding-top: 30px;
   font-family: EVILDEAD;
   text-align: center;
   font-size: 60px;
+  text-shadow: 0px 5px #000000;
+}
+
+h1:hover {
+  text-shadow: 0 0 25px #E65B00;
+}
+
+nav{
+  background-color: #2B323D;
+  border: 10px solid #2B323D;
+}
+
+div.linebreak{
+  margin-top: 15px;
+  border-top: 3px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 body{
   background-color: #2B323D;
   margin: 70px;
+  margin-top: 50px;
 }
 
 /*main{
