@@ -22,14 +22,18 @@ html{
 }
 
 h1{
+  letter-spacing: 5px;
   padding-top: 30px;
   font-family: EVILDEAD;
   text-align: center;
-  font-size: 60px;
+  font-size: 65px;
   text-shadow: 0px 5px #000000;
+  transition: letter-spacing ease-out 2s, text-shadow ease-out 2s;
 }
 
 h1:hover {
+  transition: letter-spacing 2s, text-shadow 2s;
+  letter-spacing: 20px;
   text-shadow: 0 0 25px #E65B00;
 }
 
@@ -57,8 +61,8 @@ ul a{
 div.linebreak{
   margin-top: 15px;
   border-top: 3px solid black;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: inherit;
+  margin-right: inherit;
 }
 
 body{
