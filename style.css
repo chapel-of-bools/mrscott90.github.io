@@ -29,6 +29,7 @@ h1{
   font-size: 65px;
   text-shadow: 0px 5px #000000;
   transition: letter-spacing ease-out 2s, text-shadow ease-out 2s;
+  /*You only need to specify the transition here; not on :hover */
 }
 
 h1:hover {
@@ -40,6 +41,7 @@ h1:hover {
 nav{
   background-color: #2B323D;
   border: 10px solid #2B323D;
+  /*You can also use `transparent` as a color if you want the border to match your background.*/
   padding-top: 10px;
   padding-bottom: 20px;
 }
