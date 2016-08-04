@@ -10,112 +10,93 @@
   line-height:inherit;
   color:inherit;
 }
-
-@font-face {
-    font-family: EVILDEAD;
-    src: url(EVILDEAD.TTF);
-}
-
-html{
-  background-color: black;
-  color: white;
-}
-
 h1{
+  color: white;
   letter-spacing: 5px;
-  padding-top: 30px;
   font-family: EVILDEAD;
   text-align: center;
   font-size: 65px;
   text-shadow: 0px 5px #000000;
+  margin-bottom: 25px;
   transition: letter-spacing 2s, text-shadow 2s;
   transition: letter-spacing ease-out 2s, text-shadow ease-out 2s;
 }
-
 h1:hover {
   letter-spacing: 20px;
-  text-shadow: 0 0 25px #E65B00;
+  text-shadow: 0 0 25px #FF374A;
 }
-
+@font-face {
+    font-family: EVILDEAD;
+    src: url(EVILDEAD.TTF);
+}
+html{
+  background-image: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg");
+  color: black;
+}
 nav{
-  background-color: #2B323D;
-  border: 10px solid #2B323D;
+  background-color: #54615F;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-
-main ul{
-  font-size: 20px;
-  padding-top: 20px;
-  list-style-type: none;
-  text-align: center;
-  letter-spacing: 3px;
+.matt{
+  display: block;
+  box-shadow: 0 0 25px black;
+  margin: auto;
+  margin-top: 20px;
+  border: 5px hidden;
+  border-radius: 200px;
+  height: 300px;
 }
-
-main ul li:hover{
-  transition: color 1s;
-  color: #E65B00;
-}
-
-main ul li{
-  transition: color ease-out 1s;
-}
-
 nav ul {
     font-size: 20px;
     padding-top: 20px;
     list-style-type: none;
     text-align: center;
 }
-
 .icon i {
+  color: white;
   font-size: 60px;
   margin-right: 75px;
   margin-left: 75px;
   text-shadow: 0 0 25px black;
   transition: text-shadow ease-out 1s;
 }
-
 .icon i:hover{
   transition: text-shadow 1s;
-  text-shadow: 0 0 25px #E65B00;
+  text-shadow: 0 0 25px #FF374A;
 }
-
 li {
     display: inline;
 }
-
-ul a{
-  border-right: 2px solid #2B323D;
-  padding-right: 5px;
-}
-
-ul li:nth-child(3n) a{
-  border: none;
-}
-
 div.linebreak{
+  width: 750px;
   margin-top: 15px;
   border-top: 3px solid black;
   margin-left: inherit;
   margin-right: inherit;
 }
-
 body{
-  background-color: #2B323D;
-  border-radius: 5em;
+  display: block;
+  background-color: #54615F;
+  border-radius: 100px;
+  border: 5px outset #21252B;
+  width: 1000px;
   margin: 70px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
 }
-
-img{
-  float: right;
-}
-
 main{
-  background-color: black;
-  border-radius: 5em;
-  border-left: 15px solid #2B323D;
-  border-right: 15px solid #2B323D;
+  text-align: center;
+  font-size: 30px;
+  background-color: #54615F;
+  border-left: 15px solid #54615F;
+  border-right: 15px solid #54615F;
+  border-bottom: 15px solid #54615F;
+  border-radius: 100px;
   overflow: auto;
+}
+p{
+  font-family: 'Slabo 27px', serif;
+  padding: 20px;
 }
