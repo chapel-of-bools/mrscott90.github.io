@@ -30,7 +30,7 @@ h1:hover {
     src: url(EVILDEAD.TTF);
 }
 html{
-  background-image: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg");
+  background-image: url("background.jpg");
   color: black;
 }
 nav{
