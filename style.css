@@ -37,11 +37,6 @@ h1:hover {
 html{
   color: white;
   background-color: black;
-  /*border-right: 3px solid black;
-  border-left: 3px solid black;
-  padding: none;
-  margin-left: 100px;
-  margin-right: 100px;*/
 }
 .body, .copy{
   background-color: white;
@@ -63,16 +58,17 @@ nav{
   padding-top: 10px;
 }
 .text{
+  font-weight: bold;
+  padding: 10px
   margin-top: 0px;
+  margin-bottom: 0px;
   color: black;
   font-size: 20px;
   margin-left: 125px;
   margin-right: 125px;
-  float: left;
 }
 .matt{
-  margin-top: 30px;
-  box-shadow: 0 0 25px black;
+  box-shadow: 0 0 25px #AFAFAF;
   border: 3px outset #21252B;
   border-radius: 25px;
   height: 300px;
@@ -98,12 +94,12 @@ li {
 }
 div.linebreak{
   width: 750px;
-  margin-top: 15px;
   border-top: 3px solid black;
   margin-left: auto;
   margin-right: auto;
 }
 main{
+  margin-top: 25px;
   font-size: 30px;
   text-align: center;
 }
