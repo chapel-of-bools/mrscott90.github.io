@@ -106,3 +106,6 @@ main{
 ul, menu, dir {
     -webkit-padding-start: 0px;
 }
+.galink{
+  cursor: pointer;
+}
