@@ -11,40 +11,60 @@
   color:inherit;
 }
 h1{
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   color: white;
   letter-spacing: 5px;
   font-family: EVILDEAD;
   text-align: center;
   font-size: 65px;
-  text-shadow: 0px 5px #000000;
+  text-shadow: 0 0 15px #AFAFAF;
+  margin-top: 25px;
   margin-bottom: 25px;
   transition: letter-spacing 2s, text-shadow 2s;
   transition: letter-spacing ease-out 2s, text-shadow ease-out 2s;
 }
 h1:hover {
   letter-spacing: 20px;
-  text-shadow: 0 0 25px #FF374A;
+  text-shadow: 0 0 15px #FF0034;
 }
 @font-face {
     font-family: EVILDEAD;
     src: url(EVILDEAD.TTF);
 }
 html{
-  background-image: url("background.jpg");
+  color: white;
+}
+.body{
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  padding: none;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.copy{
+  margin: 25px;
+  font-size: 10px;
   color: black;
+  text-align: center;
 }
 nav{
-  background-color: #54615F;
   padding-top: 10px;
   padding-bottom: 20px;
 }
+.text{
+  color: black;
+  font-size: 20px;
+  margin-left: 125px;
+  margin-right: 125px;
+  float: left;
+}
 .matt{
-  display: block;
+  margin-top: 30px;
   box-shadow: 0 0 25px black;
-  margin: auto;
-  margin-top: 20px;
-  border: 5px hidden;
-  border-radius: 200px;
+  border: 3px outset #21252B;
+  border-radius: 25px;
   height: 300px;
 }
 nav ul {
@@ -54,16 +74,15 @@ nav ul {
     text-align: center;
 }
 .icon i {
-  color: white;
+  color: #21252B;
   font-size: 60px;
-  margin-right: 75px;
-  margin-left: 75px;
-  text-shadow: 0 0 25px black;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-shadow: 0 0 15px #AFAFAF;
   transition: text-shadow ease-out 1s;
 }
 .icon i:hover{
-  transition: text-shadow 1s;
-  text-shadow: 0 0 25px #FF374A;
+  text-shadow: 0 0 15px #FF0034;
 }
 li {
     display: inline;
@@ -72,31 +91,10 @@ div.linebreak{
   width: 750px;
   margin-top: 15px;
   border-top: 3px solid black;
-  margin-left: inherit;
-  margin-right: inherit;
-}
-body{
-  display: block;
-  background-color: #54615F;
-  border-radius: 100px;
-  border: 5px outset #21252B;
-  width: 1000px;
-  margin: 70px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
 }
 main{
-  text-align: center;
   font-size: 30px;
-  background-color: #54615F;
-  border-left: 15px solid #54615F;
-  border-right: 15px solid #54615F;
-  border-bottom: 15px solid #54615F;
-  border-radius: 100px;
-  overflow: auto;
-}
-p{
-  font-family: 'Slabo 27px', serif;
-  padding: 20px;
+  text-align: center;
 }
