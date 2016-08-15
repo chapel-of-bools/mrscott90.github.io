@@ -40,8 +40,8 @@ html{
 }
 .body, .copy{
   background-color: white;
-  border-right: 3px solid black;
-  border-left: 3px solid black;
+  border-right: 10px ridge #AFAFAF;
+  border-left: 10px groove #AFAFAF;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 125px;
