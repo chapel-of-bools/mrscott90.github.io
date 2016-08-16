@@ -26,6 +26,24 @@ h1{
   transition: letter-spacing 2s, text-shadow 2s;
   transition: letter-spacing ease-out 2s, text-shadow ease-out 2s;
 }
+h2{
+  padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0px;
+}
+h3{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+.project_img{
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
 h1:hover {
   letter-spacing: 20px;
   text-shadow: 0px 0px 15px #FF0034;
@@ -92,11 +110,18 @@ nav ul {
 li {
   display: inline;
 }
-div.linebreak{
+.linebreak, .linebreak2 {
   width: 750px;
   border-top: 3px solid black;
   margin-left: auto;
   margin-right: auto;
+}
+.linebreak2{
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+.projects{
+  text-align: center;
 }
 main{
   margin-top: 25px;
@@ -108,4 +133,13 @@ ul, menu, dir {
 }
 .galink{
   cursor: pointer;
+}
+p{
+  font-size: 14px;
+  margin: 0px;
+}
+.gitlinks{
+  font-size: 10px;
+  padding: 3px;
+  font-weight: bold;
 }
