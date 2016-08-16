@@ -47,6 +47,7 @@ h4{
   margin: 0px;
 }
 .project_img, .project_imgs{
+  box-shadow: 0 0 25px #AFAFAF;
   width: 420px;
   border: 2px solid black;
   border-radius: 25px;
@@ -55,6 +56,7 @@ h4{
   margin-top: 25px;
 }
 .ios{
+  box-shadow: 0 0 25px #AFAFAF;
   height: 300px;
   border: 2px solid black;
   border-radius: 10px;
@@ -103,7 +105,6 @@ nav{
 .matt{
   box-shadow: 0 0 25px #AFAFAF;
   border: 3px outset #21252B;
-  border-radius: 25px;
   height: 300px;
 }
 nav ul {
