@@ -39,10 +39,25 @@ h3{
   font-weight: bold;
   margin: 0px;
 }
-.project_img{
-  height: 300px;
+h4{
+  padding-top: 25px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+.project_img, .project_imgs{
+  width: 420px;
   border: 2px solid black;
   border-radius: 25px;
+}
+.project_imgs, .ios{
+  margin-top: 25px;
+}
+.ios{
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 h1:hover {
   letter-spacing: 20px;
@@ -110,7 +125,7 @@ nav ul {
 li {
   display: inline;
 }
-.linebreak, .linebreak2 {
+.linebreak, .linebreak2, .linebreak3 {
   width: 750px;
   border-top: 3px solid black;
   margin-left: auto;
@@ -119,6 +134,9 @@ li {
 .linebreak2{
   margin-top: 25px;
   padding-bottom: 25px;
+}
+.linebreak3{
+  width: 200px;
 }
 .projects{
   text-align: center;
@@ -140,6 +158,8 @@ p{
 }
 .gitlinks{
   font-size: 10px;
-  padding: 3px;
   font-weight: bold;
+}
+.git{
+  font-size: 25px;
 }
