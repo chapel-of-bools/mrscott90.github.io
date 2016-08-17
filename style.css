@@ -160,6 +160,11 @@ p{
   font-size: 14px;
   margin: 0px;
 }
+.res{
+  font-size: 14px;
+  margin: 0px;
+  cursor: pointer;
+}
 .gitlinks{
   font-size: 10px;
   font-weight: bold;
