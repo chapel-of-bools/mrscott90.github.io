@@ -22,7 +22,7 @@ h1{
   text-shadow: 0px 5px #AFAFAF;
   margin-top: 0px;
   margin-bottom: 25px;
-  padding-top: 25px;
+  padding-top: 15px;
   transition: letter-spacing 2s, text-shadow 2s;
   transition: letter-spacing ease-out 2s, text-shadow ease-out 2s;
 }
@@ -136,8 +136,8 @@ li {
   margin-right: auto;
 }
 .linebreak2{
-  margin-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 15px;
+  padding-bottom: 15px;
 }
 .linebreak3{
   width: 200px;
