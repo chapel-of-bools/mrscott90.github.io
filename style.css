@@ -65,7 +65,7 @@ h4{
 }
 .ios{
   box-shadow: 0 0 25px #AFAFAF;
-  height: 300px;
+  width: 200px;
   border: 2px solid black;
   border-radius: 10px;
 }
@@ -177,4 +177,11 @@ p{
 }
 .git{
   font-size: 25px;
+}
+#pro{
+  font-family: inherit;
+  text-shadow: 0px 3px #AFAFAF;
+}
+#pro:hover{
+  text-shadow: 0px 0px 15px #FF0034;
 }
