@@ -77,7 +77,7 @@ html{
   color: white;
   background-color: black;
 }
-.body, .copy{
+.body{
   background-color: white;
   border-right: 10px ridge #AFAFAF;
   border-left: 10px groove #AFAFAF;
@@ -88,10 +88,7 @@ html{
   font-size: 10px;
   color: black;
   text-align: center;
-}
-.copy{
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 300px;
 }
 nav{
   padding-top: 10px;
