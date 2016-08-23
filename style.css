@@ -183,6 +183,10 @@ p{
   margin: 0px;
   cursor: pointer;
   text-decoration: underline;
+  transition: color ease-out .5s;
+}
+.res:hover{
+  color: #FF0034;
 }
 .gitlinks{
   font-size: 10px;
